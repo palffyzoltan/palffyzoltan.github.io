@@ -1,0 +1,69 @@
+.fodoboz{
+  margin: auto;
+  width: 1000px;
+}
+
+.header{
+  background: center / 100% url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png");
+  height: 200px;
+  position: relative;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.headertext{
+  position: absolute;
+  bottom: 40px;
+  left: 250px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.headertext h1 {
+  padding: 0px;
+  margin: 0px;
+  font-size: 42px;
+}
+
+.headertext h3 {
+  padding: 0px;
+  margin: 0px;
+  
+}
+
+.main{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+}
+
+.szovegsotet{
+  position: relative;
+  background-color: gray;
+  color: white;
+  font-size: 48px;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Merriweather', serif;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.idezojel{
+  position: absolute;
+  top: 0px;
+  font-size: 40px;
+}
+.szoveg h2{
+  text-transform:uppercase;
+}
+
+.szoveg{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.footer{
+  border-top: 5px solid black; 
+  padding-top: 40px;
+}
