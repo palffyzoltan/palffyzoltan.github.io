@@ -6,12 +6,12 @@ let kepadatok = [
     },
     {
         foto: 'images/2.jpg',
-        felirat: 'Többen is tudunk evezni...',
+        felirat: 'Többen is evezünk...',
         leiras: 'Jó lenne eldönteni, merre van az előre. Vitassuk meg!'
     },
     {
         foto: 'images/3.jpg',
-        felirat: 'Nagy a szárazság',
+        felirat: 'Nagy a szárazság...',
         leiras: 'Hol van a víz? Gyerünk keressük meg!'
     },
     {
@@ -26,9 +26,9 @@ let fotobetolt = (AktFoto) => {
     $('#fotofelirat').text(kepadatok[AktFoto].felirat);
     $('#fotoleiras').text(kepadatok[AktFoto].leiras);
     for (let index = 0; index < kepadatok.length; index++) {
-        $(`#index${index}`).css("border", "1px solid green"); 
+        $(`#index${index}`).css("border", "1px solid gray"); 
     }
-    $(`#index${AktFoto}`).css("border", "2px solid red");
+    $(`#index${AktFoto}`).css("border", "2px solid black");
 }
 
 AktFoto=0;
