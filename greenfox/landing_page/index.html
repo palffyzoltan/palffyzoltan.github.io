@@ -1,48 +1,38 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>CodePen - Landing Page</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"><link rel="stylesheet" href="./style.css">
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Első webalkalamzásom</title>
 </head>
 <body>
-<!-- partial:index.partial.html -->
-<div class="container">
-    <h1>AweSame Landing Page</h1>
-    <a href="about.html">Magamról</a>
-    <div class="card-holder">
-     <div class="card">
-       <img src="images/tree.png" alt="Kéz">
-       <h3>Plan trees</h3>
-     </div>
-     <div class="card">
-       <img src="images/deal.png" alt="Kézfogás">
-       <h3>Make friends</h3>
-     </div>
-     <div class="card">
-       <img src="images/money.png" alt="Zsé">
-       <h3>Profit</h3>
-     </div>
+    <div id="fodoboz">
+        <div id="fotok">
+                <div id="baldoboz">
+                    <div>
+                        <img src="arrow.svg" alt="balra" id="balgomb">
+                    </div>
+                </div>
+                <div id="kozepdoboz">
+                    <img alt="kép" id="kep">
+                    <div id="szurkedoboz">
+                        <h1 id="fotofelirat"></h1>
+                        <p id="fotoleiras"></p>
+                    </div>
+                </div> 
+                <div id="jobbdoboz">
+                    <div>
+                        <img src="arrow.svg" alt="jobbra" id="jobbgomb">
+                    </div>
+                </div>    
+        </div>
+        <div id="indexdoboz">
+            
+        </div>
     </div>
-    <div class="newsletter">
-    <h3>Newsletter</h3>
-    <p>Ide jön a szöveg</p>
-    <form>
-      <input type="email" id="email">
-      <button type="submit">
-        Subscribe
-      </button>
-      <input type="checkbox" id="terms">
-      <label for="terms">I accept the terms and coditinons</label>
-      <div id="closex">x</div>
-    </form>
-   <div id="kerdes">?</div>
- </div>
-</div>
-<!-- partial -->
-  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="scripts.js"></script>  
 </body>
 </html>

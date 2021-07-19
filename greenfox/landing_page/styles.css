@@ -1,0 +1,78 @@
+#fotok{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    margin: auto;
+    width: 1200px;
+    background-color: rgb(218, 216, 216);
+    box-shadow: gray 3px 3px;
+}
+
+#baldoboz{
+    display:flex;
+    align-items: center;
+    width: 100px;
+    padding: 10px;
+}
+
+#balgomb{
+    width: 70px;
+}
+
+#kozepdoboz{
+    width: 1000px;
+    text-align: center;
+    position: relative;
+}
+
+#jobbdoboz{
+    display:flex;
+    align-items: center;
+    width: 100px;
+    padding: 10px;
+
+}
+
+#jobbgomb{
+    transform: rotate(0.5turn);
+    width: 70px;
+}
+
+#kep{
+    height: 500px;
+    width: 1000px;  
+}
+
+#szurkedoboz{
+    position: absolute;
+    bottom: 0px;
+    color: black;
+    background-color: gray;
+    width: 1000px;
+    opacity:0.6;
+}
+
+#indexdoboz{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.index{
+    width: 100px;
+    border: 2px solid green;
+}
+
+.indexdobozelem{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 150px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.indexszoveg{
+    border: 1px solid yellow;
+}
