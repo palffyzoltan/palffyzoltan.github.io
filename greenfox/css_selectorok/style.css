@@ -1,0 +1,19 @@
+body{
+    width: 200px;
+}
+
+.big{
+    color:blue;
+    font-weight: bold;
+}
+.b326, #b325{
+    border: 1px solid green;
+}
+
+#b325 {
+    font-weight: bold;  
+}
+
+#b327 {
+    background-color: yellow;
+}

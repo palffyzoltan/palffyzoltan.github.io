@@ -1,0 +1,28 @@
+.doboz{
+    max-width: 1000px; 
+    margin: auto;
+}
+
+.fodoboz{
+    border: 1px solid lightseagreen;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:center;
+    margin-top: 20px;
+}
+
+.kisdoboz{
+    width: 70px;
+    height: 70px;
+    background-color: lightseagreen;
+}
+
+.coral{
+    background-color:coral;
+}
+
+.lila{
+    background-color:darkorchid;
+}

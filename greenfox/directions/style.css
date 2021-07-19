@@ -1,0 +1,29 @@
+div{
+  border: 5px solid #4285f4;
+  text-align: center;
+  padding: 0px;
+  width: 300px;
+}
+p{
+  padding: 20px;
+  margin: 0px;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  font-family: 'Encode Sans SC', sans-serif;
+}
+.North{
+  background: #E67676;
+}
+
+.East{
+  background: #F2F062;
+}
+
+.South{
+  background: #A9E6E6;
+}
+
+.West{
+  background: #7692E4;
+}
